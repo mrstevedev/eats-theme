@@ -1,0 +1,24 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.eats__block--main {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0; }
+  .eats__block--main .eats__block--latest-post {
+    padding: 0 20px; }
+    .eats__block--main .eats__block--latest-post .eats__block--date {
+      color: #767676; }
+    .eats__block--main .eats__block--latest-post .eats__block--heading-title {
+      font-size: 36px; }
+      .eats__block--main .eats__block--latest-post .eats__block--heading-title a {
+        color: #cc4b00; }
+    .eats__block--main .eats__block--latest-post .eats__block--content {
+      font-size: 14px; }
+    .eats__block--main .eats__block--latest-post .eats__block--read-more a {
+      color: #cc4b00; }
+    .eats__block--main .eats__block--latest-post .dashicons-arrow-right-alt2 {
+      color: #cc4b00; }

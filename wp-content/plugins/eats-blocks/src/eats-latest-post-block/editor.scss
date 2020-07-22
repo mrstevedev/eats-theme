@@ -1,0 +1,36 @@
+$primary: #cc4b00;
+$heading: 36px;
+$content: 14px;
+$meta-info: #767676;
+
+.eats__block--main  {
+    display: flex;
+    margin: 2rem 0;
+
+    .eats__block--latest-post {
+        padding: 0 20px;
+
+        .eats__block--date {
+            color: $meta-info;
+        }
+
+        .eats__block--heading-title {
+            font-size: $heading;
+            
+            a { color: $primary; }
+        }
+
+        .eats__block--content {
+            font-size: $content;
+        }
+
+        .eats__block--read-more {
+            a { color: $primary; }
+        }
+
+        .dashicons-arrow-right-alt2 {
+            color: $primary;
+        }
+    }
+}
+  
